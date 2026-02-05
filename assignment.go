@@ -22,7 +22,7 @@ func register(){
 	var p Participant
 	var w Waiting
 
-	for (len(waiting) < waitingList) {
+	for (len(waiting) <= waitingList) {
 		fmt.Println("Enter the name: ")
 		
 		if(len(participant) < quotas) {
